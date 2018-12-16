@@ -131,3 +131,10 @@ public:
 		return package::CalculateCost()+Fee_Per_Ounce;
 	}
 };
+void main() {
+	float weight;
+	OvernightPackage o1("usman", "abbas", "lahore", "hostel", "lahore", "per mahal", 80, 20,400);
+	weight=o1.CalculateCost();
+	cout << weight << endl;
+	
+}
